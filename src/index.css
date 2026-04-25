@@ -2,8 +2,8 @@
 
 :root {
   color-scheme: light;
-  --primary: #1a6bbf;
-  --secondary: #2a85e0;
+  --primary: #1464a0;
+  --secondary: #2b8fd6;
   --success: #16a34a;
   --warning: #d97706;
   --danger: #dc2626;
@@ -61,7 +61,7 @@ a:focus-visible,
 input:focus-visible,
 select:focus-visible,
 textarea:focus-visible {
-  outline: 3px solid rgba(26, 107, 191, 0.44);
+  outline: 3px solid rgba(20, 100, 160, 0.44);
 }
 
 a {
@@ -99,7 +99,7 @@ button:disabled {
   min-height: 92px;
   margin: 0;
   background: rgba(255, 255, 255, 0.92);
-  border-bottom: 1px solid rgba(26, 107, 191, 0.14);
+  border-bottom: 1px solid rgba(20, 100, 160, 0.14);
   box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
   backdrop-filter: blur(18px) saturate(140%);
 }
@@ -206,7 +206,7 @@ button:disabled {
 .nav-cta {
   color: #fff;
   background: var(--primary);
-  border: 1px solid rgba(26, 107, 191, 0.5);
+  border: 1px solid rgba(20, 100, 160, 0.5);
   padding: 0 18px;
   box-shadow: none;
 }
@@ -230,8 +230,8 @@ button:disabled {
   padding: 0 14px;
   color: #0d1420;
   font-weight: 800;
-  background: rgba(26, 107, 191, 0.06);
-  border: 1px solid rgba(26, 107, 191, 0.18);
+  background: rgba(20, 100, 160, 0.06);
+  border: 1px solid rgba(20, 100, 160, 0.18);
   border-radius: 999px;
   white-space: nowrap;
   backdrop-filter: blur(10px);
@@ -256,7 +256,7 @@ button:disabled {
 .hero-ghost {
   color: #0d1420;
   background: rgba(255, 255, 255, 0.72);
-  border-color: rgba(26, 107, 191, 0.22);
+  border-color: rgba(20, 100, 160, 0.22);
   backdrop-filter: blur(12px);
 }
 
@@ -282,7 +282,7 @@ button:disabled {
   place-items: center;
   color: var(--ink);
   background: var(--soft);
-  border: 1px solid rgba(26, 107, 191, 0.14);
+  border: 1px solid rgba(20, 100, 160, 0.14);
   border-radius: var(--radius);
 }
 
@@ -620,7 +620,7 @@ details,
   background:
     linear-gradient(180deg, rgba(17, 22, 32, 0.98), rgba(13, 16, 24, 0.98)),
     var(--surface);
-  border: 1px solid rgba(26, 107, 191, 0.18);
+  border: 1px solid rgba(20, 100, 160, 0.18);
   border-radius: 18px;
   box-shadow: 0 28px 80px rgba(0, 0, 0, 0.4);
   padding: 16px;
@@ -739,7 +739,7 @@ details,
   bottom: -18%;
   width: 22rem;
   height: 22rem;
-  background: radial-gradient(circle at center, rgba(26, 107, 191, 0.1), transparent 68%);
+  background: radial-gradient(circle at center, rgba(20, 100, 160, 0.1), transparent 68%);
   filter: blur(22px);
   pointer-events: none;
 }
@@ -808,7 +808,7 @@ details,
 .hero-reels-link:hover {
   transform: translateY(-1px);
   background: var(--surface-strong);
-  border-color: rgba(26, 107, 191, 0.32);
+  border-color: rgba(20, 100, 160, 0.32);
 }
 
 .hero-reels-instagram-icon {
@@ -940,7 +940,7 @@ details,
 .hero-reel-list-item.is-active {
   transform: translateY(-1px);
   background: var(--surface-strong);
-  border-color: rgba(26, 107, 191, 0.38);
+  border-color: rgba(20, 100, 160, 0.38);
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.28);
 }
 
@@ -1029,7 +1029,7 @@ details,
   min-height: 430px;
   padding: 24px;
   background: #ffffff;
-  border: 1px solid rgba(26, 107, 191, 0.12);
+  border: 1px solid rgba(20, 100, 160, 0.12);
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
   color: var(--ink);
 }
@@ -1037,9 +1037,9 @@ details,
 .package-card-featured {
   color: #fff;
   background:
-    radial-gradient(circle at top right, rgba(26, 107, 191, 0.14), transparent 34%),
+    radial-gradient(circle at top right, rgba(20, 100, 160, 0.14), transparent 34%),
     linear-gradient(180deg, #161a28, #1a1e30);
-  border-color: rgba(26, 107, 191, 0.24);
+  border-color: rgba(20, 100, 160, 0.24);
   box-shadow: 0 24px 54px rgba(0, 0, 0, 0.4);
 }
 
@@ -1067,7 +1067,7 @@ details,
 }
 
 .package-footer {
-  border-top: 1px solid rgba(26, 107, 191, 0.1);
+  border-top: 1px solid rgba(20, 100, 160, 0.1);
 }
 
 .package-card-header {
@@ -1188,8 +1188,8 @@ details,
   max-width: none;
   padding: 88px 0 72px;
   background: #f8f9fb;
-  border-top: 1px solid rgba(26, 107, 191, 0.1);
-  border-bottom: 1px solid rgba(26, 107, 191, 0.08);
+  border-top: 1px solid rgba(20, 100, 160, 0.1);
+  border-bottom: 1px solid rgba(20, 100, 160, 0.08);
   box-shadow: none;
 }
 
@@ -1233,8 +1233,8 @@ details,
   padding: 0 18px;
   color: var(--primary);
   font-weight: 700;
-  background: rgba(26, 107, 191, 0.07);
-  border: 1px solid rgba(26, 107, 191, 0.22);
+  background: rgba(20, 100, 160, 0.07);
+  border: 1px solid rgba(20, 100, 160, 0.22);
   border-radius: 999px;
   box-shadow: none;
 }
@@ -1248,7 +1248,7 @@ details,
 .quote-form {
   padding: 28px;
   background: #ffffff;
-  border: 1px solid rgba(26, 107, 191, 0.2);
+  border: 1px solid rgba(20, 100, 160, 0.2);
   border-radius: 22px;
   box-shadow: 0 24px 54px rgba(0, 0, 0, 0.4);
   color: var(--ink);
@@ -1264,7 +1264,7 @@ details,
 .quote-form textarea {
   color: var(--ink);
   background: #f5f8fc;
-  border-color: rgba(26, 107, 191, 0.16);
+  border-color: rgba(20, 100, 160, 0.16);
 }
 
 .quote-form select,
@@ -1281,7 +1281,7 @@ details,
 .quote-form .button-primary {
   color: #fff;
   background: var(--primary);
-  border: 1px solid rgba(26, 107, 191, 0.5);
+  border: 1px solid rgba(20, 100, 160, 0.5);
   box-shadow: none;
 }
 
@@ -1306,7 +1306,7 @@ textarea {
   min-width: 0;
   color: var(--ink);
   background: #f5f8fc;
-  border: 1px solid rgba(26, 107, 191, 0.16);
+  border: 1px solid rgba(20, 100, 160, 0.16);
   border-radius: var(--radius);
   padding: 12px 13px;
 }
@@ -1354,7 +1354,7 @@ textarea {
 details {
   padding: 22px;
   background: #ffffff;
-  border: 1px solid rgba(26, 107, 191, 0.12);
+  border: 1px solid rgba(20, 100, 160, 0.12);
   color: var(--ink);
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
 }
@@ -1389,7 +1389,7 @@ details p {
   margin-top: 56px;
   color: #e8ecf2;
   background: linear-gradient(180deg, #071428, #040d1c);
-  border-top: 1px solid rgba(26, 107, 191, 0.3);
+  border-top: 1px solid rgba(20, 100, 160, 0.3);
 }
 
 .site-footer-inner {
@@ -1572,7 +1572,7 @@ details p {
 
 .request-card.active {
   border-color: var(--primary);
-  box-shadow: 0 0 0 3px rgba(26, 107, 191, 0.14);
+  box-shadow: 0 0 0 3px rgba(20, 100, 160, 0.14);
 }
 
 .request-card strong {
@@ -1628,8 +1628,8 @@ details p {
 
 .status-new {
   color: #fca5a5;
-  background: rgba(26, 107, 191, 0.14);
-  border-color: rgba(26, 107, 191, 0.28);
+  background: rgba(20, 100, 160, 0.14);
+  border-color: rgba(20, 100, 160, 0.28);
 }
 
 .status-contacted,
@@ -1808,7 +1808,7 @@ details p {
     gap: 8px;
     padding: 12px;
     background: rgba(255, 255, 255, 0.97);
-    border: 1px solid rgba(26, 107, 191, 0.14);
+    border: 1px solid rgba(20, 100, 160, 0.14);
     border-radius: 14px;
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
     backdrop-filter: blur(16px);
@@ -1819,8 +1819,8 @@ details p {
     padding: 13px;
     color: #0d1420;
     font-weight: 800;
-    background: rgba(26, 107, 191, 0.05);
-    border: 1px solid rgba(26, 107, 191, 0.12);
+    background: rgba(20, 100, 160, 0.05);
+    border: 1px solid rgba(20, 100, 160, 0.12);
     border-radius: 12px;
   }
 
@@ -2001,7 +2001,7 @@ details p {
     gap: 10px;
     padding: 10px;
     background: rgba(255, 255, 255, 0.95);
-    border: 1px solid rgba(26, 107, 191, 0.16);
+    border: 1px solid rgba(20, 100, 160, 0.16);
     border-radius: var(--radius);
     backdrop-filter: blur(14px);
   }

@@ -1,8 +1,8 @@
 import './globals.css'
 
 export const metadata = {
-  title: 'EZ Mobile Detailing',
-  description: 'Mobile auto detailing in Los Angeles, CA. Book a detail at your home or office.',
+  title: 'All About Auto Detailing',
+  description: 'Professional auto detailing in Canyon Lake, CA. Paint correction, interior deep clean, hand wax & more. Family owned since 2010.',
 }
 
 export default function RootLayout({ children }) {

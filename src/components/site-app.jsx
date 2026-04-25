@@ -470,7 +470,8 @@ function Footer() {
         <div className="footer-brand">
           <strong>{site.business.name}</strong>
           <p>{site.business.tagline}</p>
-          <p>{site.business.serviceArea}</p>
+          <p>{site.business.addressNote}</p>
+          <p>{site.business.address}</p>
         </div>
         <div className="footer-group">
           <span className="footer-label">Navigate</span>
@@ -485,7 +486,7 @@ function Footer() {
           <span className="footer-label">Contact</span>
           <div className="footer-links">
             <a href={site.business.phoneHref}>{site.business.phone}</a>
-            <a href={site.business.emailHref}>{site.business.email}</a>
+            <span>Call Jeff or Kat</span>
             <Link href="/portal/signin">Detailer portal</Link>
           </div>
         </div>
