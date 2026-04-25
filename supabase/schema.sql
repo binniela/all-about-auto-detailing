@@ -1,0 +1,18 @@
+-- This client site uses the shared CRM Supabase project.
+-- Run the real schema from:
+--   ../crm/supabase/schema.sql
+--
+-- Required shared tables/functions:
+--   public."Business"
+--   public."BusinessUser"
+--   public."CustomerSubmission"
+--   public."Subscription"
+--   public.create_customer_submission_for_business_slug(...)
+--   public."CustomerSubmission"."scheduledAt"
+--   public."CustomerSubmission"."appointmentLocation"
+--   delete policy for authenticated business members on public."CustomerSubmission"
+--
+-- Optional helper query after provisioning:
+-- select id, slug, name, domain
+-- from public."Business"
+-- order by "createdAt" desc;
