@@ -145,7 +145,7 @@ export const site = {
       date: 'Apr 26, 2026',
       service: 'Ceramic Coating',
       quote:
-        "I really do not leave reviews. However, this place deserves the shoutout. From the great communication, to the work quality, to the knowledge they provide, man this place is amazing. I got my car back moments ago, and I'm shocked at how shiny and clean this vehicle looks. 10/10. If you want it done right, hit this shop up.",
+        "Alright, I know a lot of people say this, but I really do not leave reviews. However, this place deserves the shoutout. From the great communication, to the work quality, to the knowledge they provide, man this place is amazing. I got my car back moments ago, and I'm shocked at how shiny and clean this vehicle looks. 10/10. If you want it done right, hit this shop up.",
     },
     {
       name: 'Byron B.',
@@ -153,15 +153,15 @@ export const site = {
       date: 'Jul 10, 2024',
       service: 'Full Polish & Ceramic Coating',
       quote:
-        "The full polish and ceramic coating removed all the scratches and it made it look like a brand new car. The communication process was thorough and consistent — not once did I ever feel out of the loop. The prices are extremely fair and well worth it for what you get. If you're thinking about dropping off your vehicle here, stop thinking and just go.",
+        "The full polish and ceramic coating removed all the scratches and it made it look like a brand new car. The communication process was thorough and consistent — not once did I ever feel out of the loop. I found their prices extremely fair and well worth the price for what you get. If you're thinking about dropping off your vehicle here, stop thinking and just go.",
     },
     {
-      name: 'Addissun R.',
-      location: 'Lake Elsinore, CA',
-      date: 'Aug 10, 2024',
+      name: 'Ciera W.',
+      location: 'Murrieta, CA',
+      date: 'Jan 25, 2025',
       service: 'Ceramic Coating',
       quote:
-        "10/5 Stars! After 6 years and 4 cars, I'm still with the same detailer, and the quality remains top-notch. Even after moving to other areas, I haven't found anyone who matches their level of excellence. Recently had ceramic coating done on my 2022 Chevy Equinox and it's the best decision I've made — my car looks and feels brand new.",
+        "We found this business on Yelp when we purchased our first new black vehicle and I wanted to get it ceramic coated to protect the paint. The owners were SO helpful in explaining our options and the price was unbeatable for the value. This was over 2 years ago and it looks like brand new!! It's family owned and operated and they are all a pleasure to work with. We would recommend them over and over again.",
     },
   ],
   heroReels: [],

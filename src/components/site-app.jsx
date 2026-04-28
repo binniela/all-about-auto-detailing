@@ -43,24 +43,24 @@ const emptyQuote = {
 
 const serviceExamples = [
   {
-    title: 'Exterior Detail',
-    subtitle: 'Foam Wash',
-    image: '/detail-example-1.jpg',
+    title: 'Showroom Finish',
+    subtitle: 'Camaro ZL1',
+    image: '/gallery-camaro.jpg',
   },
   {
-    title: 'Clay & Wax Service',
-    subtitle: 'Gloss Protection',
-    video: '/videos/clay-and-wax-service.mp4',
+    title: 'Ceramic Coating',
+    subtitle: 'Mercedes S-Class',
+    image: '/gallery-mercedes.jpg',
   },
   {
-    title: 'Full Detail',
-    subtitle: 'Clean Reset',
-    image: '/detail-example-3.jpg',
+    title: 'Premium Detail',
+    subtitle: 'Genesis SUV',
+    image: '/gallery-red-suv.jpg',
   },
   {
-    title: 'Interior Detail',
-    subtitle: 'Deep Clean',
-    video: '/videos/interior-detail.mp4',
+    title: 'Paint Protection',
+    subtitle: 'White Crossover',
+    image: '/gallery-white-suv.jpg',
   },
 ]
 
@@ -139,6 +139,7 @@ export function PublicSite() {
       <Header menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <Hero />
       <ProofSection />
+      <Testimonials />
       <Services />
       <QuoteSection />
       <FAQ />
@@ -153,9 +154,11 @@ function Header({ menuOpen, setMenuOpen }) {
     <header className="site-header">
       <div className="site-header-inner">
         <a href="#top" className="brand-lockup" aria-label={`${site.business.name} home`}>
-          <span className="brand-mark">
-            <Image src="/ez-logo-transparent.png" alt="" aria-hidden="true" width={44} height={44} />
-          </span>
+          {site.business.logo ? (
+            <span className="brand-mark">
+              <Image src={site.business.logo} alt="" aria-hidden="true" width={44} height={44} />
+            </span>
+          ) : null}
           <span>
             <strong>{site.business.name}</strong>
             <small>{site.business.tagline}</small>
@@ -316,6 +319,44 @@ function Services() {
                 Request service
                 <ArrowRight size={16} aria-hidden="true" />
               </a>
+            </div>
+          </article>
+        ))}
+      </div>
+    </section>
+  )
+}
+
+function Testimonials() {
+  if (!site.testimonials?.length) return null
+
+  return (
+    <section className="section-block testimonials-section" id="reviews">
+      <div className="testimonials-header">
+        <div className="testimonials-heading">
+          <span className="eyebrow">Customer Reviews</span>
+          <h2>What Canyon Lake drivers say after the keys come back.</h2>
+          <p>Real reviews from real customers on Yelp.</p>
+        </div>
+        {site.business.yelpHref && (
+          <a href={site.business.yelpHref} className="yelp-review-card" target="_blank" rel="noopener noreferrer">
+            <Image src="/yelp-logo.png" alt="Yelp" width={60} height={28} className="yelp-review-card-logo" />
+            <strong>{site.business.yelpRating} stars · {site.business.yelpReviews} reviews</strong>
+            <span>Read the full profile</span>
+          </a>
+        )}
+      </div>
+      <div className="testimonial-grid">
+        {site.testimonials.map((item) => (
+          <article className="testimonial-card" key={item.name}>
+            <div className="testimonial-card-top">
+              <span className="testimonial-stars" aria-label="5 stars">★★★★★</span>
+              <span className="testimonial-service">{item.service}</span>
+            </div>
+            <p className="testimonial-quote">{item.quote}</p>
+            <div className="testimonial-footer">
+              <strong>{item.name}</strong>
+              <span>{item.location} · {item.date}</span>
             </div>
           </article>
         ))}
