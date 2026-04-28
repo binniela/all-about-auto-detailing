@@ -167,6 +167,7 @@ function Header({ menuOpen, setMenuOpen }) {
         <nav className="desktop-nav" aria-label="Main navigation">
           <a href="#proof">Proof</a>
           <a href="#packages">Packages</a>
+          <a href="#reviews">Reviews</a>
           <a href="#quote">Request</a>
           <a href="#faq">FAQ</a>
         </nav>
@@ -196,6 +197,9 @@ function Header({ menuOpen, setMenuOpen }) {
             </a>
             <a href="#packages" onClick={() => setMenuOpen(false)}>
               Packages
+            </a>
+            <a href="#reviews" onClick={() => setMenuOpen(false)}>
+              Reviews
             </a>
             <a href="#quote" onClick={() => setMenuOpen(false)}>
               Request
